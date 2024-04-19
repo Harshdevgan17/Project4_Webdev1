@@ -549,6 +549,7 @@ form fieldset ul li p{
 
 .error{
     color: red;
+    font-size: 18px;
 }
 input, textarea{
     border: 1px solid gainsboro;
