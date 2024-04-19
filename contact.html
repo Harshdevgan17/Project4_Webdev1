@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js"></script>
+    <title>Baker's Delight</title>
+</head>
+<body>
+    <header>
+        <nav id="header-nav">
+            <div id="logo">
+                <a href="index.html"><h2>Baker's Delight</h2></a>
+            </div>
+
+            <div id="header-nav-div">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contact-page">
+        <h1 id="contact-title">
+            CONTACT US
+        </h1>
+        <div id="title-underline"></div>
+    
+        <img src="images/contact.jpeg" alt="Bakery">
+
+        <p id="msg">
+            Feel free to call us during retail hours, or send us an email. We would love to answer any questions you may have.
+        </p>
+
+        <h2>Baker's Delight</h2>
+
+        <p id="address">
+            120 Express Avenue Winnipeg,MB A2B 2U8
+            <br>
+            Phone: <span>123-456-7890</span>
+            <br>
+            Email: <span>info@bakersdelight.com</span>
+        </p>
+    </main>
+
+    <section id="contact-form">
+        <h2>
+            Questions? Get in Touch
+        </h2>
+        <form action="index.html" id="questionform">
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="name">Name <span>*</span></label> <br>
+                        <input type="text" id="name" name="name">
+                        <p id="name_error" class="error">Required Field</p>
+                    </li>
+                    <li>
+                        <label for="email">Email <span>*</span></label> <br>
+                        <input type="email" name="email" id="email">
+                        <p id="email_error" class="error">Required Field</p>
+                        <p id="invalid_email" class="error">Invalid Email</p>
+                    </li>
+                    <li>
+                        <label for="phone">Phone <span>*</span></label> <br>
+                        <input type="tel" name="phone" id="phone">
+                        <p id="phone_error" class="error">Required Field</p>
+                        <p id="invalid_phone" class="error">Invalid Phone Number</p>
+                    </li>
+                    <li>
+                        <label for="message">Message</label> <br>
+                        <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                    </li>
+                </ul>
+
+                <div id="buttons">
+                    <button type="submit" id="submit">SUBMIT</button>
+                    <button type="reset" id="clear">CLEAR</button>
+                </div>
+            </fieldset>
+
+        </form>
+    </section>
+
+    <footer>
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <p>
+            Copyright &COPY; 2024 Baker's Delight - All Rights Reserved
+        </p>
+
+        <nav id="privacy">
+            <ul>
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">TERMS AND CONDITIONS</a></li>
+            </ul>
+        </nav>
+
+        <p>by <span>Harshdeep Devgan</span></p>
+    </footer>
+
+</body>
+</html>
