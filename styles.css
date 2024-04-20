@@ -374,7 +374,7 @@ main p#subtitle {
     letter-spacing: 2px;
     font-size: large;
     font-weight: 600;
-    color: gray;
+    color: rgb(65, 64, 64);
 }
 
 #menu {
@@ -494,7 +494,7 @@ main h2{
 }
 
 #contact-page p#address span{
-    color: #b75f24;
+    color: #723b16;
 }
 
 section#contact-form{
