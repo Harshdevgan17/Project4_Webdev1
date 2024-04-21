@@ -384,6 +384,11 @@ main p#subtitle {
     flex-wrap: wrap;
 }
 
+#menu img:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.2s;
+}
+
 .item {
     height: 50%;
     margin-top: 40px;
@@ -391,6 +396,7 @@ main p#subtitle {
 
 #products img {
     height: 250px;
+    border-radius: 3px;
 }
 
 #products h3 {
