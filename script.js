@@ -87,14 +87,14 @@ function formHasErrors(){
             firstErrorElement = phone;
         }
         errorFlag = true;
-    } else if(phone.value.trim().length != 10){
+    } else if(phone.value.trim().length != 10 || isNaN(phone.value)){
         document.getElementById('invalid_phone').style.display = "block";
 
         if(!firstErrorElement){
             firstErrorElement = phone;
         }
         errorFlag = true;
-    }
+    } 
 
     if(firstErrorElement){
 		firstErrorElement.focus();
